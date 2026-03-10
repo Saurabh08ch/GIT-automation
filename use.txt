@@ -1,0 +1,12 @@
+Use it from Git Bash (not PowerShell):
+
+cd /c/shell/shellbash
+./git_auto_push.sh
+Useful options:
+
+./git_auto_push.sh --interval-sec 300
+./git_auto_push.sh --message-prefix "auto: sync"
+./git_auto_push.sh --log-file "$HOME/git-auto-push-shellbash.log"
+Quick test (faster loop):
+
+./git_auto_push.sh --interval-sec 30
